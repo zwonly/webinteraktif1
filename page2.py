@@ -1,6 +1,6 @@
 import streamlit as st
 def page_2():
-    st.title("favorite Cartoon")
+    st.title("Favorite Cartoon")
     st.write('Halaman ini Menampilkan beberapa kartun favorit. Enjoy For Watching Guys!')
     st.write('Unicorn Academy')
     st.image("unicorn academy.jpeg", width=200)
