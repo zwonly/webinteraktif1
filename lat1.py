@@ -28,3 +28,20 @@ PAGES = {
 st.sidebar.image("cropped_image.png", width=180)
 page = st.sidebar.radio("Pages", list(PAGES.keys()))
 PAGES[page]()
+
+st.markdown(
+    """
+        <style>
+        [data-testid="stActionButtonicon"] {
+            display:none;
+        }
+        [data-testid="baseButton-header"] {
+            display:none;
+        }
+        
+        </style
+    
+        """,
+       unsafe_allow_html=True, 
+    
+)
